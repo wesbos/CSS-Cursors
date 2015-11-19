@@ -16,7 +16,7 @@ module.exports = [
   },
   {
     "name": "none",
-    "img": "👻"
+    "img": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
   },
   {
     "name": "context-menu",

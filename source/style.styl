@@ -3,14 +3,15 @@
 */
 
 red = #FF2914
-
+yellow = #FFFF80
+darkerYellow = #F5F57B
 /*
   House Keeping
 */
 
 html
   font-size 10px
-  font-family sans-serif
+  font-family Neuton, sans-serif
   box-sizing: border-box;
   
 *, *:before, *:after
@@ -32,25 +33,37 @@ body
   padding 0
   li
     flex-basis 20%
+    width 20%
     flex-direction column
     justify-content center
     align-items center
-    border 3px double rgba(0,0,0,0.1)
+    border 3px solid darkerYellow
     display flex
-    background #FFFF80
+    background yellow
+    transition all 0.1s
     &.copied
-      background red
+      background darkerYellow
+      transition all 0.3s
+      transform scale(1.2)
     &.copied.copied-active
-      transition all 0.5s
-      background #FFFF80
+      transition all 0.2s
+      background yellow
       
   p
-    font-size 20px
+    font-size 25px
+
 
 for cursor in cursors
   .{cursor}
     cursor convert(cursor)
 
-    
+li.url
+  cursor url('source/santahand.png'),default;
 
-
+[name="clipboard"]
+  display none
+  
+li.deets
+  text-align center
+  p
+    font-size 15px

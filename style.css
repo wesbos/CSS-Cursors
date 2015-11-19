@@ -6,7 +6,7 @@
 */
 html {
   font-size: 10px;
-  font-family: sans-serif;
+  font-family: Neuton, sans-serif;
   box-sizing: border-box;
 }
 *,
@@ -38,6 +38,7 @@ body {
   -webkit-flex-basis: 20%;
       -ms-flex-preferred-size: 20%;
           flex-basis: 20%;
+  width: 20%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -51,23 +52,30 @@ body {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  border: 3px double rgba(0,0,0,0.1);
+  border: 3px solid #f5f57b;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   background: #ffff80;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
 }
 .cursors li.copied {
-  background: #ff2914;
+  background: #f5f57b;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
 }
 .cursors li.copied.copied-active {
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
   background: #ffff80;
 }
 .cursors p {
-  font-size: 20px;
+  font-size: 25px;
 }
 .default {
   cursor: default;
@@ -177,4 +185,16 @@ body {
 .grabbing {
   cursor: -webkit-grabbing;
   cursor: grabbing;
+}
+li.url {
+  cursor: url("source/santahand.png"), default;
+}
+[name="clipboard"] {
+  display: none;
+}
+li.deets {
+  text-align: center;
+}
+li.deets p {
+  font-size: 15px;
 }

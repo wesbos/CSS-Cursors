@@ -4,24 +4,26 @@ head
   meta(charset="UTF-8")
   title CSS Cursors!
   link(rel="stylesheet", href="style.css")
+  link(href='https://fonts.googleapis.com/css?family=Neuton' rel='stylesheet' type='text/css')
 body
   ul.cursors
-    li
+    li.deets
       h2 CSS Cursors
       p Damn, that's handy!
-    li 
+    li.deets 
       p Click to copy to clipboard
-    li
-      p url (custom image)
+    li.url(data-css="cursor:url('link/to/cursor.png')")
+      img(src="source/santahand.png")
+      p url()
     - each cursor in cursors
       li(class="#{cursor.name}" data-css="cursor:#{cursor.name};")
         img(src="#{cursor.img}" alt="#{cursor.name}")
         p #{cursor.name}
-    li
+    li.deets
       p Made with love By Wes Bos 
       <a href="https://twitter.com/wesbos" class="twitter-follow-button" data-show-count="true" >Follow @wesbos</a>
       p Learn from and help out on Github
-    li
+    li.deets
       p Care to share?
       <a href="https://twitter.com/share" class="twitter-share-button"{count} data-url="http://csscursor.info" data-text="Handy site to quickly reference CSS cursors" data-via="wesbos" data-related="wesbos">Tweet</a>
   input(type="text", name="clipboard")

@@ -190,7 +190,9 @@ li.url {
   cursor: url("source/santahand.png"), default;
 }
 [name="clipboard"] {
-  display: none;
+  width: 10px;
+  height: 10px;
+  position: absolute;
 }
 li.deets {
   text-align: center;

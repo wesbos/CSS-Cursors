@@ -1,0 +1,180 @@
+/*
+  Variables
+*/
+/*
+  House Keeping
+*/
+html {
+  font-size: 10px;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  border: 1px solid #ff2914;
+}
+/*
+  The Good Stuff™ 
+*/
+.cursors {
+  list-style: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+.cursors li {
+  -webkit-flex-basis: 20%;
+      -ms-flex-preferred-size: 20%;
+          flex-basis: 20%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 3px double rgba(0,0,0,0.1);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background: #ffff80;
+}
+.cursors li.copied {
+  background: #ff2914;
+}
+.cursors li.copied.copied-active {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  background: #ffff80;
+}
+.cursors p {
+  font-size: 20px;
+}
+.default {
+  cursor: default;
+}
+.none {
+  cursor: none;
+}
+.context-menu {
+  cursor: context-menu;
+}
+.help {
+  cursor: help;
+}
+.pointer {
+  cursor: pointer;
+}
+.progress {
+  cursor: progress;
+}
+.wait {
+  cursor: wait;
+}
+.cell {
+  cursor: cell;
+}
+.crosshair {
+  cursor: crosshair;
+}
+.text {
+  cursor: text;
+}
+.vertical-text {
+  cursor: vertical-text;
+}
+.alias {
+  cursor: alias;
+}
+.copy {
+  cursor: copy;
+}
+.move {
+  cursor: move;
+}
+.no-drop {
+  cursor: no-drop;
+}
+.not-allowed {
+  cursor: not-allowed;
+}
+.all-scroll {
+  cursor: all-scroll;
+}
+.col-resize {
+  cursor: col-resize;
+}
+.row-resize {
+  cursor: row-resize;
+}
+.n-resize {
+  cursor: n-resize;
+}
+.e-resize {
+  cursor: e-resize;
+}
+.s-resize {
+  cursor: s-resize;
+}
+.w-resize {
+  cursor: w-resize;
+}
+.ne-resize {
+  cursor: ne-resize;
+}
+.nw-resize {
+  cursor: nw-resize;
+}
+.se-resize {
+  cursor: se-resize;
+}
+.sw-resize {
+  cursor: sw-resize;
+}
+.ew-resize {
+  cursor: ew-resize;
+}
+.ns-resize {
+  cursor: ns-resize;
+}
+.nesw-resize {
+  cursor: nesw-resize;
+}
+.nwse-resize {
+  cursor: nwse-resize;
+}
+.zoom-in {
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in;
+}
+.zoom-out {
+  cursor: -webkit-zoom-out;
+  cursor: zoom-out;
+}
+.grab {
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+.grabbing {
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+}

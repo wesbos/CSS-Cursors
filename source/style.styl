@@ -1,0 +1,56 @@
+/*
+  Variables
+*/
+
+red = #FF2914
+
+/*
+  House Keeping
+*/
+
+html
+  font-size 10px
+  font-family sans-serif
+  box-sizing: border-box;
+  
+*, *:before, *:after
+  box-sizing: inherit;
+
+body
+  margin 0
+  border 1px solid red
+
+/*
+  The Good Stuff™ 
+*/
+.cursors
+  list-style none
+  display flex
+  flex-wrap wrap
+  height 100vh
+  margin 0
+  padding 0
+  li
+    flex-basis 20%
+    flex-direction column
+    justify-content center
+    align-items center
+    border 3px double rgba(0,0,0,0.1)
+    display flex
+    background #FFFF80
+    &.copied
+      background red
+    &.copied.copied-active
+      transition all 0.5s
+      background #FFFF80
+      
+  p
+    font-size 20px
+
+for cursor in cursors
+  .{cursor}
+    cursor convert(cursor)
+
+    
+
+

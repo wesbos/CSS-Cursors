@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+html(lang="en")
+head
+  meta(charset="UTF-8")
+  title CSS Cursors!
+  link(rel="stylesheet", href="style.css")
+body
+  ul.cursors
+    li
+      h2 CSS Cursors
+      p Damn, that's handy!
+    li 
+      p Click to copy to clipboard
+    li
+      p url (custom image)
+    - each cursor in cursors
+      li(class="#{cursor.name}" data-css="cursor:#{cursor.name};")
+        img(src="#{cursor.img}" alt="#{cursor.name}")
+        p #{cursor.name}
+    li
+      p Made with love By Wes Bos 
+      <a href="https://twitter.com/wesbos" class="twitter-follow-button" data-show-count="true" >Follow @wesbos</a>
+      p Learn from and help out on Github
+    li
+      p Care to share?
+      <a href="https://twitter.com/share" class="twitter-share-button"{count} data-url="http://csscursor.info" data-text="Handy site to quickly reference CSS cursors" data-via="wesbos" data-related="wesbos">Tweet</a>
+  input(type="text", name="clipboard")
+  script(src="source/scripts.js")
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+    

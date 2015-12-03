@@ -193,6 +193,7 @@ li.url {
   width: 10px;
   height: 10px;
   position: absolute;
+  opacity: 0;
 }
 li.deets {
   text-align: center;

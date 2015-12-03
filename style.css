@@ -60,6 +60,7 @@ body {
   background: #ffff80;
   -webkit-transition: all 0.1s;
   transition: all 0.1s;
+  text-align: center;
 }
 .cursors li.copied {
   background: #f5f57b;

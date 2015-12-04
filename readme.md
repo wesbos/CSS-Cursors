@@ -1,6 +1,6 @@
 # CSS Cursor Info → [CSSCursor.info](http://CSSCursor.info)
 
-![](http://wes.io/draG/content)
+[![CSSCursor](http://wes.io/draG/content)](http://CSSCursor.info)
 
 A small site to quickly find CSS cursors and copy the CSS to your clipboard.
 

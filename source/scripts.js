@@ -1,12 +1,12 @@
 
-var items = document.querySelectorAll('.cursors li');
+const items = document.querySelectorAll('.cursors li');
 
 function handleClick() {
   /*
     Copy to clipboard
   */
-  var clipboardInput = document.querySelector('[name="clipboard"]');
-  clipboardInput.value = this.dataset.css;
+  const clipboardInput = document.querySelector('[name="clipboard"]');
+  clipboardInput.value = this.dataset.css || ' ';
   clipboardInput.select();
   document.execCommand('copy');
 

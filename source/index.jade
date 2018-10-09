@@ -14,11 +14,11 @@ body
       p Damn, that's handy!
     li.deets 
       p Click to copy to clipboard
-    li.url(data-css="cursor:url('link/to/cursor.png')")
+    li.url(data-css="cursor: url('link/to/cursor.png')")
       img(src="source/santahand.png")
       p url()
     - each cursor in cursors
-      li(class="#{cursor.name}" data-css="cursor:#{cursor.name};")
+      li(class="#{cursor.name}" data-css="cursor: #{cursor.name};")
         img(src="#{cursor.img}" alt="#{cursor.name}")
         p #{cursor.name}
     li.deets

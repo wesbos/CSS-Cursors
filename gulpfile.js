@@ -1,13 +1,14 @@
 var gulp = require('gulp');
-var jade = require('gulp-jade');
+var pug = require('gulp-pug');
 var stylus = require('gulp-stylus');
 var autoprefixer = require('gulp-autoprefixer');
 var cursors = require('./source/cursors');
 var cursorNames = cursors.map(cursor=> cursor.name);
 
+console.log("cursors", cursors);
 gulp.task('html',function() {
-  gulp.src('source/index.jade')
-    .pipe(jade({
+  gulp.src('source/index.pug')
+    .pipe(pug({
       locals : {
         cursors : cursors // pass jade the cursors
       }
@@ -28,7 +29,7 @@ gulp.task('styles',function() {
 });
 
 gulp.task('watch',['default'],function() {
-  gulp.watch('source/**/*.jade', ['html']);
+  gulp.watch('source/**/*.pug', ['html']);
   gulp.watch('source/**/*.styl', ['styles']);
 });
 

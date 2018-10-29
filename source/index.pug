@@ -6,7 +6,6 @@ head
   link(rel="stylesheet", href="style.css")
   link(href='https://fonts.googleapis.com/css?family=Neuton' rel='stylesheet' type='text/css')
   link(rel="icon" type="image/png" href="source/santahand.png")
-
 body
   ul.cursors
     li.deets
@@ -17,9 +16,9 @@ body
     li.url(data-css="cursor:url('link/to/cursor.png')")
       img(src="source/santahand.png")
       p url()
-    - each cursor in cursors
-      li(class="#{cursor.name}" data-css="cursor:#{cursor.name};")
-        img(src="#{cursor.img}" alt="#{cursor.name}")
+    each cursor in cursors
+      li(class=cursor.name data-css=`cursor:${cursor.name};`)
+        img(src=cursor.img alt=cursor.name)
         p #{cursor.name}
     li.deets
       p Made with love By Wes Bos 

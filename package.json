@@ -2,7 +2,7 @@
   "name": "csscursors",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,7 +11,7 @@
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "^3.1.0",
-    "gulp-jade": "^1.1.0",
+    "gulp-pug": "^3.3.0",
     "gulp-stylus": "^2.1.0"
   }
 }

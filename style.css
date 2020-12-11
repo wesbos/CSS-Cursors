@@ -19,7 +19,7 @@ body {
   border: 1px solid #ff2914;
 }
 /*
-  The Good Stuff™ 
+  The Good Stuff™
 */
 .cursors {
   list-style: none;
@@ -187,9 +187,9 @@ body {
   cursor: -webkit-grabbing;
   cursor: grabbing;
 }
-li.url {
-  cursor: url("source/santahand.png"), default;
-}
+/* li.url {
+  cursor: url("./santahand.png"), default;
+} */
 [name="clipboard"] {
   width: 10px;
   height: 10px;

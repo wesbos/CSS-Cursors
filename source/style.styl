@@ -13,7 +13,7 @@ html
   font-size 10px
   font-family Neuton, sans-serif
   box-sizing: border-box;
-  
+
 *, *:before, *:after
   box-sizing: inherit;
 
@@ -22,7 +22,7 @@ body
   border 1px solid red
 
 /*
-  The Good Stuff™ 
+  The Good Stuff™
 */
 .cursors
   list-style none
@@ -49,24 +49,19 @@ body
     &.copied.copied-active
       transition all 0.2s
       background yellow
-      
+
   p
     font-size 25px
 
-
-for cursor in cursors
-  .{cursor}
-    cursor convert(cursor)
-
 li.url
-  cursor url('source/santahand.png'),default;
+  cursor url('./santahand.png'),default;
 
 [name="clipboard"]
   width 10px
   height 10px
   position absolute
   opacity 0
-  
+
 li.deets
   text-align center
   p

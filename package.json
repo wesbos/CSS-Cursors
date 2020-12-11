@@ -4,14 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel source/index.pug",
+    "build": "parcel build source/index.pug --out-dir docs"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "gulp": "^3.9.0",
-    "gulp-autoprefixer": "^3.1.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
     "gulp-jade": "^1.1.0",
-    "gulp-stylus": "^2.1.0"
+    "gulp-stylus": "^2.7.0",
+    "pug": "^3.0.0",
+    "stylus": "^0.54.8"
+  },
+  "dependencies": {
+    "parcel-bundler": "^1.12.4"
   }
 }

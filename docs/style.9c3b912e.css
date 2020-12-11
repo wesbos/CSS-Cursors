@@ -1,0 +1,76 @@
+/*
+  Variables
+*/
+/*
+  House Keeping
+*/
+html {
+  font-size: 10px;
+  font-family: Neuton, sans-serif;
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  border: 1px solid #ff2914;
+}
+/*
+  The Good Stuff™
+*/
+.cursors {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+.cursors li {
+  flex-basis: 20%;
+  width: 20%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #f5f57b;
+  display: flex;
+  background: #ffff80;
+  transition: all 0.1s;
+  text-align: center;
+}
+.cursors li.copied {
+  background: #f5f57b;
+  transition: all 0.3s;
+  transform: scale(1.2);
+}
+.cursors li.copied.copied-active {
+  transition: all 0.2s;
+  background: #ffff80;
+}
+.cursors p {
+  font-size: 25px;
+}
+li.url {
+  cursor: url("santahand.a6e3db49.png"), default;
+}
+[name="clipboard"] {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  opacity: 0;
+}
+li.deets {
+  text-align: center;
+}
+li.deets p {
+  font-size: 15px;
+}
+a {
+  color: #ff2914;
+}
+
+
+/*# sourceMappingURL=/style.9c3b912e.css.map */

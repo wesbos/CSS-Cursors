@@ -3,32 +3,33 @@ html(lang="en")
 head
   meta(charset="UTF-8")
   title CSS Cursors!
-  link(rel="stylesheet", href="style.css")
+  link(rel="stylesheet", href="./style.styl")
   link(href='https://fonts.googleapis.com/css?family=Neuton' rel='stylesheet' type='text/css')
-  link(rel="icon" type="image/png" href="source/santahand.png")
+  link(rel="icon" type="image/png" href="./santahand.png")
 
 body
   ul.cursors
     li.deets
       h2 CSS Cursors
       p Damn, that's handy!
-    li.deets 
+    li.deets
       p Click to copy to clipboard
     li.url(data-css="cursor:url('link/to/cursor.png')")
-      img(src="source/santahand.png")
+      img(src="./santahand.png")
       p url()
-    - each cursor in cursors
-      li(class="#{cursor.name}" data-css="cursor:#{cursor.name};")
-        img(src="#{cursor.img}" alt="#{cursor.name}")
-        p #{cursor.name}
+    each cursor in cursors
+      li(class=`${cursor.name}` data-css=`cursor:${cursor.name};` style=`cursor: ${cursor.name};`)
+        img(src=`${cursor.img}`, alt=`${cursor.name}`)
+        p #{cursor.name}`
+
     li.deets
-      p Made with love By Wes Bos 
+      p Made with love By Wes Bos
       <a href="https://twitter.com/wesbos" class="twitter-follow-button" data-show-count="true" >Follow @wesbos</a>
       p Learn from and help out <a href="https://github.com/wesbos/CSS-Cursors">on Github</a>
     li.deets
       p Care to share?
       <a href="https://twitter.com/share" class="twitter-share-button"{count} data-url="http://csscursor.info" data-text="Handy site to quickly reference CSS cursors" data-via="wesbos" data-related="wesbos">Tweet</a>
+
   input(type="text", name="clipboard")
-  script(src="source/scripts.js")
+  script(src="./scripts.js")
   <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-    

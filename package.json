@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "pug": "^3.0.0",
+    "pug": "^3.0.1",
     "stylus": "^0.54.8"
   },
   "dependencies": {

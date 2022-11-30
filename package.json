@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@parcel/transformer-pug": "^2.3.1",
+    "@parcel/transformer-stylus": "^2.3.1",
     "pug": "^3.0.0",
     "stylus": "^0.54.8"
   },

@@ -12,7 +12,7 @@
 module.exports = [
   {
     "name": "default",
-    "img": "https://developer.mozilla.org/@api/deki/files/3438/=default.gif"
+    "img": "https://developer.mozilla.org/en-US/docs/Web/CSS/cursor/default.gif"
   },
   {
     "name": "none",
@@ -20,134 +20,134 @@ module.exports = [
   },
   {
     "name": "context-menu",
-    "img": "https://developer.mozilla.org/@api/deki/files/3461/=context-menu.png"
+    "img": "https://developer.mozilla.org/en-US/docs/Web/CSS/cursor/context-menu.png"
   },
   {
     "name": "help",
-    "img": "https://developer.mozilla.org/@api/deki/files/3442/=help.gif"
+    "img": "https://developer.mozilla.org/en-US/docs/Web/CSS/cursor/help.gif"
   },
   {
     "name": "pointer",
-    "img": "https://developer.mozilla.org/@api/deki/files/3449/=pointer.gif"
+    "img": "https://developer.mozilla.org/en-US/docs/Web/CSS/cursor/pointer.gif"
   },
   {
     "name": "progress",
-    "img": "https://developer.mozilla.org/@api/deki/files/3450/=progress.gif"
+    "img": "https://developer.mozilla.org/en-US/docs/Web/CSS/cursor/progress.gif"
   },
   {
     "name": "wait",
-    "img": "https://developer.mozilla.org/@api/deki/files/3457/=wait.gif"
+    "img": "https://developer.mozilla.org/en-US/docs/Web/CSS/cursor/wait.gif"
   },
   {
     "name": "cell",
-    "img": "https://developer.mozilla.org/@api/deki/files/3434/=cell.gif"
+    "img": "https://developer.mozilla.org/en-US/docs/Web/CSS/cursor/cell.gif"
   },
   {
     "name": "crosshair",
-    "img": "https://developer.mozilla.org/@api/deki/files/3437/=crosshair.gif"
+    "img": "https://developer.mozilla.org/en-US/docs/Web/CSS/cursor/crosshair.gif"
   },
   {
     "name": "text",
-    "img": "https://developer.mozilla.org/files/3809/text.gif"
+    "img": "https://developer.mozilla.org/en-US/docs/Web/CSS/cursor/text.gif"
   },
   {
     "name": "vertical-text",
-    "img": "https://developer.mozilla.org/@api/deki/files/3456/=vertical-text.gif"
+    "img": "https://developer.mozilla.org/en-US/docs/Web/CSS/cursor/vertical-text.gif"
   },
   {
     "name": "alias",
-    "img": "https://developer.mozilla.org/@api/deki/files/3432/=alias.gif"
+    "img": "https://developer.mozilla.org/en-US/docs/Web/CSS/cursor/alias.gif"
   },
   {
     "name": "copy",
-    "img": "https://developer.mozilla.org/@api/deki/files/3436/=copy.gif"
+    "img": "https://developer.mozilla.org/en-US/docs/Web/CSS/cursor/copy.gif"
   },
   {
     "name": "move",
-    "img": "https://developer.mozilla.org/@api/deki/files/3443/=move.gif"
+    "img": "https://developer.mozilla.org/en-US/docs/Web/CSS/cursor/move.gif"
   },
   {
     "name": "no-drop",
-    "img": "https://developer.mozilla.org/@api/deki/files/3445/=no-drop.gif"
+    "img": "https://developer.mozilla.org/en-US/docs/Web/CSS/cursor/no-drop.gif"
   },
   {
     "name": "not-allowed",
-    "img": "https://developer.mozilla.org/@api/deki/files/3446/=not-allowed.gif"
+    "img": "https://developer.mozilla.org/en-US/docs/Web/CSS/cursor/not-allowed.gif"
   },
   {
     "name": "all-scroll",
-    "img": "https://developer.mozilla.org/@api/deki/files/3433/=all-scroll.gif"
+    "img": "https://developer.mozilla.org/en-US/docs/Web/CSS/cursor/all-scroll.gif"
   },
   {
     "name": "col-resize",
-    "img": "https://developer.mozilla.org/@api/deki/files/3435/=col-resize.gif"
+    "img": "https://developer.mozilla.org/en-US/docs/Web/CSS/cursor/col-resize.gif"
   },
   {
     "name": "row-resize",
-    "img": "https://developer.mozilla.org/@api/deki/files/3451/=row-resize.gif"
+    "img": "https://developer.mozilla.org/en-US/docs/Web/CSS/cursor/row-resize.gif"
   },
   {
     "name": "n-resize",
-    "img": "https://developer.mozilla.org/files/4083/n-resize.gif"
+    "img": "https://developer.mozilla.org/en-US/docs/Web/CSS/cursor/n-resize.gif"
   },
   {
     "name": "e-resize",
-    "img": "https://developer.mozilla.org/files/4085/e-resize.gif"
+    "img": "https://developer.mozilla.org/en-US/docs/Web/CSS/cursor/e-resize.gif"
   },
   {
     "name": "s-resize",
-    "img": "https://developer.mozilla.org/files/4087/s-resize.gif"
+    "img": "https://developer.mozilla.org/en-US/docs/Web/CSS/cursor/s-resize.gif"
   },
   {
     "name": "w-resize",
-    "img": "https://developer.mozilla.org/files/4089/w-resize.gif"
+    "img": "https://developer.mozilla.org/en-US/docs/Web/CSS/cursor/w-resize.gif"
   },
   {
     "name": "ne-resize",
-    "img": "https://developer.mozilla.org/files/4091/ne-resize.gif"
+    "img": "https://developer.mozilla.org/en-US/docs/Web/CSS/cursor/ne-resize.gif"
   },
   {
     "name": "nw-resize",
-    "img": "https://developer.mozilla.org/files/4093/nw-resize.gif"
+    "img": "https://developer.mozilla.org/en-US/docs/Web/CSS/cursor/nw-resize.gif"
   },
   {
     "name": "se-resize",
-    "img": "https://developer.mozilla.org/files/4097/se-resize.gif"
+    "img": "https://developer.mozilla.org/en-US/docs/Web/CSS/cursor/se-resize.gif"
   },
   {
     "name": "sw-resize",
-    "img": "https://developer.mozilla.org/files/4095/sw-resize.gif"
+    "img": "https://developer.mozilla.org/en-US/docs/Web/CSS/cursor/sw-resize.gif"
   },
   {
     "name": "ew-resize",
-    "img": "https://developer.mozilla.org/files/3806/3-resize.gif"
+    "img": "https://developer.mozilla.org/en-US/docs/Web/CSS/cursor/3-resize.gif"
   },
   {
     "name": "ns-resize",
-    "img": "https://developer.mozilla.org/files/3808/6-resize.gif"
+    "img": "https://developer.mozilla.org/en-US/docs/Web/CSS/cursor/6-resize.gif"
   },
   {
     "name": "nesw-resize",
-    "img": "https://developer.mozilla.org/files/3805/1-resize.gif"
+    "img": "https://developer.mozilla.org/en-US/docs/Web/CSS/cursor/1-resize.gif"
   },
   {
     "name": "nwse-resize",
-    "img": "https://developer.mozilla.org/files/3807/4-resize.gif"
+    "img": "https://developer.mozilla.org/en-US/docs/Web/CSS/cursor/4-resize.gif"
   },
   {
     "name": "zoom-in",
-    "img": "https://developer.mozilla.org/@api/deki/files/3459/=zoom-in.gif"
+    "img": "https://developer.mozilla.org/en-US/docs/Web/CSS/cursor/zoom-in.gif"
   },
   {
     "name": "zoom-out",
-    "img": "https://developer.mozilla.org/@api/deki/files/3460/=zoom-out.gif"
+    "img": "https://developer.mozilla.org/en-US/docs/Web/CSS/cursor/zoom-out.gif"
   },
   {
     "name": "grab",
-    "img": "https://developer.mozilla.org/@api/deki/files/3440/=grab.gif"
+    "img": "https://developer.mozilla.org/en-US/docs/Web/CSS/cursor/grab.gif"
   },
   {
     "name": "grabbing",
-    "img": "https://developer.mozilla.org/@api/deki/files/3441/=grabbing.gif"
+    "img": "https://developer.mozilla.org/en-US/docs/Web/CSS/cursor/grabbing.gif"
   }
 ];
